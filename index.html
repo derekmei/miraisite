@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Mirai</title>
+	<!-- Didact Gothic and Roboto Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+<body>
+   	<div class="vNav">
+       <ul class="vNav">
+            <li>
+                <a href="#video-coming-section">
+                    <div class="nav-label">Video Section</div>
+                </a>
+            </li>
+            <li>
+                <a href="#collaborative-workforce-section">
+                    <div class="nav-label">Collaborative Workforce</div>
+                </a>
+            </li>
+            <li>
+                <a href="#athleisure-definition-section">
+                    <div class="nav-label">Athleisure</div>
+                </a>
+            </li>
+            <li>
+                <a href="#our-formula-section">
+                    <div class="nav-label">Our Formula</div>
+                </a>
+            </li>
+            <li>
+                <a href="#footer">
+                    <div class="nav-label">Contact Us</div>
+                </a>
+            </li>
+     	</ul>
+    </div>
+
+	<div id="hero-section">
+		<!-- Begin Navigation Bar -->
+		<nav class="navbar navbar-default">
+	  		<div class="container">
+	  			<div class="navbar-header">
+			      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      	</button>
+		      		<div class="header-logo">
+			      		<img src="assets/images/logo2.png" class="header-logo-img">
+			      		<div class="header-logo-text">Mirai</div>
+			      	</div>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling 
+			    <div class="collapse navbar-collapse" >
+			      	<ul class="nav navbar-nav navbar-right" id="bs-example-navbar-collapse-1">
+			        	<li><a href="#">About Us</a></li>
+			        	<li><a href="#">Our Formula</a></li>
+			        	<li><a href="#">How It Works</a></li>
+			        	<li><a href="#">Contact Us</a></li>
+			      	</ul>
+			    </div> /.navbar-collapse -->
+	  		</div>
+		</nav>
+
+		<div class="cover-hero-text">Creating the <br>Future of Athleisure</div>
+		<div class="cover-hero-subtext">fitness has never looked this good<br><div class="cover-hero-hashtags">#neverlookback<br><div class="jap-hashtag" lang=”ja”>#過去を振り返るな</div></div></div>
+
+		<a href="#" class="visit-campaign-button-link">Visit Our Campaign</a>
+
+	</div>
+
+	<!-- <div id="video-section">
+		<iframe src="https://player.vimeo.com/video/43008478" class="mirai-video" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+	</div> -->
+	<div id="video-coming-section">
+		<div class="video-coming-text">Mirai is almost here. Stay tuned for our upcoming campaign.</div>
+	</div>
+
+
+	<div id="collaborative-workforce-section">
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="collaborative-workforce-header">A Collaborative Workforce</div>
+				<div class="collaborative-workforce-text">A community that turns ideas into products - working with the designers every step of the way.  Become part of our community and design team by following members,  contributing feedback, and by sharing concepts, art, designs, and ideas. </div>
+				<img src="assets/images/acwf.jpg" class="collaborative-workforce-image">
+			</div>			
+		</div>
+		</div>
+	</div>
+
+
+	<div id="athleisure-definition-section">
+		<div class="container">
+			<div class="athleisure-word">[Ath&sdot;Lei&sdot;Sure]</div>
+			<img class="athleisure-speaker" src="assets/images/speaker.png" value="PLAY"  onclick="play()">
+			<audio id="audio" src="Athleisure.mp3" ></audio>
+			<div class="athleisure-pronounciation">/aTH(&#600;)'l&emacr;ZH&#600;r/</div>
+			<div class="athleisure-definition">Noun
+			</div>
+			<div class="athleisure-definition">Casual, athletic-inspired fashion. Worn anywhere from a casual and social setting to an active environment. Essentially "Do Everything" wear. </div>
+		</div>
+	</div>
+
+
+	<div id="our-formula-section">
+		<div class="our-formula-title">[Our Formula]</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="col-sm-11">
+					<div class="col-sm-3 col-sm-offset-1">
+						<img src="assets/images/gym.png" class="clothes-img">
+			      		<div class="formula-section-header">Design <br>x <br> Aesthetic</div>
+			      		<div class="formula-section-paragraph">The key points of Athleisure:
+						<br>Artful, aesthetics-driven perspective to activewear without the sacrifice of either sartorial style or comfort. 
+						<br>Designing is not only limited to product but artwork as well.</div>
+					</div>
+					<div class="col-sm-1"><img src="assets/images/add.png" class="add-img"></div>
+
+					<div class="col-sm-3">
+						<img src="assets/images/fabric.png" class="fabric-img">
+			      		<div class="formula-section-header">Performance <br>x <br> Sustainability</div>
+			      		<div class="formula-section-paragraph">Advanced materials that minimize ecological impact. Not all materials are made equal. We use only sustainable materials made for the world of tomorrow. 
+						<br>We take time thoughtfully researching and handpicking all of our materials to ensure they meet these requirements.</div>
+					</div>
+					<div class="col-sm-1"><img src="assets/images/add.png" class="add-img"></div>
+
+
+					<div class="col-sm-3">
+						<img src="assets/images/transparency.png" class="transparency-img">
+			      		<div class="formula-section-header">Transparency <br>x <br> Community</div>
+			      		<div class="formula-section-paragraph">Our community is simply amazing. We wouldn't know where we were without them. It's important to know which community members were involved in the development of our products and we credit every product to their designers so everyone will know how awesome they are!</div>
+					</div>
+			  	</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="changing-design-game-section">
+
+	</div>
+
+
+
+
+	<div id="how-it-works-section">
+		<div class="how-it-works-title">How It Works</div>
+
+		<div class="carousel-icon-wrapper">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"><img src="assets/images/number-one.png" class="carousel-icon"/></li>
+			<li data-target="#myCarousel" data-slide-to="1"><img src="assets/images/number-two.png" class="carousel-icon"/></li>
+			<li data-target="#myCarousel" data-slide-to="2"><img src="assets/images/number-three.png" class="carousel-icon"/></li>
+		</div>
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  	<!-- Wrapper for slides -->
+		  	<div class="carousel-inner" role="listbox">
+		    	<div class="item active">
+		      		<div class="row">
+		      			<div class="col-sm-6">
+		      				<img src="assets/images/hiwi.jpg" class="roulette-img">
+		      			</div>
+		      			<div class="col-sm-6">
+		      				<div class="roulette-header"><img class="carousel-header-icon" src="assets/images/idea2.png">Conceptualization</div>
+							<div class="roulette-description">The community can submit designs through our platform to be evaluated, and once designs and concepts have been deemed suitable, we cast a public poll that allows the community to vote on their favorite designs.</div>
+		      			</div>
+		      		</div>
+		    	</div>
+
+		    	<div class="item">
+		      		<div class="row">
+		      			<div class="col-sm-6">
+		      				<img src="assets/images/roulette2.jpg" class="roulette-img">
+		      			</div>
+		      			<div class="col-sm-6">
+		      				<div class="roulette-header"><img class="carousel-header-icon" src="assets/images/development.png">Development</div>
+							<div class="roulette-description">Once the design has been popularized through public polling we work with the designer on further developing their concepts by incorporating the proper materials and technologies.</div>
+		      			</div>
+		      		</div>
+		    	</div>
+
+		    	<div class="item">
+		      		<div class="row">
+		      			<div class="col-sm-6">
+		      				<img src="assets/images/roulette3.jpg" class="roulette-img">
+		      			</div>
+		      			<div class="col-sm-6">
+		      				<div class="roulette-header"><img class="carousel-header-icon" src="assets/images/execution.png">Execution</div>
+							<div class="roulette-description">With the concept evaluated and materials selected we can create a production quality prototype and set it up for crowdfunding. We do it for the artists - all designs are credited to their designers.</div>
+		      			</div>
+		      		</div>
+		    	</div>
+		  	</div>
+		</div>
+	</div>
+
+
+
+	<!-- <div id="advanced-materials-section">
+
+	</div> -->
+
+
+	<div id="contact-section">
+		<div class="contact-title">Contact Us</div>
+		<div class="container">
+			<div class="contact-container">
+				<form id="contact-form" class="contact-form" action="https://formbox.es/ruQXYMoQVpEfrm5GvKT6n63C" method="POST">
+
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-2">
+						<div class="contact-form-block">
+				  			<label for="first-name">First Name</label>
+				  			<input type="text" name="first-name" placeholder="First Name">
+				  		</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="contact-form-block">
+				  			<label for="last-name">Last Name</label>
+				  			<input type="text" name="last-name" placeholder="Last Name">
+				  		</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<div class="contact-form-block">
+				  			<label for="email">Email Address</label>
+				  			<input type="text" name="email" placeholder="Enter a Valid Email Address">
+			  			</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<div class="contact-form-block">
+				  			<label for="message">Message</label>
+				  			<textarea type="textarea" rows="6" cols="60" name="message" placeholder="Enter Your Message Here"></textarea>
+			  			</div>
+			  		</div>
+				</div>
+				<button name="button" type="submit" class="form-submit-button" onclick="thankYou()">Submit</button>
+				<div class="thank-you-message">thx!</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+ 	<div class="container"><div class="line-break"></div></div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-2">
+					<div class="col-xs-2 col-sm-offset-1"><a href="https://www.facebook.com/MiraiFly" target="_blank"><img src="assets/images/facebook.png" class="social-media-icon">
+					</a></div>
+					<div class="col-xs-2"><a href="https://www.instagram.com/miraifly" target="_blank"><img src="assets/images/instagram.png" class="social-media-icon">
+					</a></div>
+					<div class="col-xs-2"><a href="https://twitter.com/mirai_fly" target="_blank"><img src="assets/images/twitter.png" class="social-media-icon">
+					</a></div>
+					<div class="col-xs-2"><a href="http://line.me/ti/p/%40vwp3697p" target="_blank"><img src="assets/images/line.png" class="social-media-icon">
+					</a></div>
+					<div class="col-xs-2"><a href="https://www.snapchat.com/add/miraifly" target="_blank"><img src="assets/images/snapchat.png" class="social-media-icon">
+					</a></div>
+				</div>
+			</div>
+			<div class="row">
+			<div class="copyright">Mirai &copy; 2016</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
